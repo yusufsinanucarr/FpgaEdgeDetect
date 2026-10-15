@@ -150,3 +150,10 @@ python python/gui_app.py
 3. İstediğiniz bir görseli yükleyin (`Görsel Seç`).
 4. Eşik değerini (Threshold) kaydırarak gerçek zamanlı önizlemeyi inceleyin.
 5. **FPGA'ye Gönder ve İşle** butonuna basın. İşlem sırasında kart üzerindeki LED'lerin hareketini izleyin ve sonucu anında görüntüleyin!
+
+---
+
+## 📄 Lisans
+
+Bu proje [MIT Lisansı](LICENSE) kapsamında açık kaynak olarak lisanslanmıştır.
+
