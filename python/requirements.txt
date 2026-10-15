@@ -1,0 +1,6 @@
+pyserial
+pillow
+numpy
+matplotlib
+PyQt5
+opencv-python

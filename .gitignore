@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.env
+venv/
+.venv/
+
+# Gowin EDA temporary files (keep .fs bitstream)
+impl/gwsynthesis/
+impl/temp/
+impl/pnr/*.html
+impl/pnr/*.txt
+impl/pnr/*.timing_paths
+impl/pnr/*.cfg
+impl/pnr/*.do
+impl/pnr/*.bin
+impl/pnr/*.binx
+*.log
+*.db
+*.tr
+*.rpt
+*.json
+*.user
+
+# Outputs
+output_*.png
+output_*.mp4
+
