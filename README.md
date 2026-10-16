@@ -2,7 +2,7 @@
 
 Bu proje, **Sipeed Tang Nano 20K (Gowin GW2AR-18)** FPGA geliştirme kartı üzerinde çalışan donanımsal görüntü filtreleme (Gaussian Blur) ve kenar algılama (Sobel Edge Detection) hızlandırıcısı ile modern bir **PyQt5 Masaüstü Arayüzü (GUI)** içermektedir.
 
-Sıfırdan yazılmış Verilog RTL mimarisi ile donanım seviyesinde çalışan konvolüsyon filtreleri, Block RAM (BSRAM) tabanlı hat tamponları (Line Buffer) ve PC ile güvenilir yüksek hızlı haberleşme (460,800 Baud UART) entegre edilmiştir.
+Sıfırdan yazılmış Verilog RTL mimarisi ile donanım seviyesinde çalışan konvolüsyon filtreleri, Block RAM (BSRAM) tabanlı hat tamponları (Line Buffer) ve PC ile güvenilir ultra yüksek hızlı haberleşme (1,350,000 Baud UART) entegre edilmiştir.
 
 ---
 
@@ -26,7 +26,7 @@ flowchart LR
     subgraph PC ["Bilgisayar (Python PyQt5 GUI)"]
         UI["Kullanıcı Arayüzü"]
         Rescale["Gri Tonlama & Yeniden Boyutlandırma"]
-        LockStep["64-Byte Lock-Step UART Köprüsü (460.8k Baud)"]
+        LockStep["64-Byte Lock-Step UART Köprüsü (1.35 Mbaud)"]
         UI --> Rescale --> LockStep
     end
 
